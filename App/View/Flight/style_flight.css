@@ -1,0 +1,198 @@
+.actions-retour {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.buttonRetour {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonRetour:hover {
+    background-color: darkgrey;
+}
+
+
+
+.form_edit {
+
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    input, textarea {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+
+
+    button {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+}
+
+
+
+
+
+.add_form{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    input, textarea {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    button {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+}
+
+
+.table-list {
+
+
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f4f4f4;
+    }
+
+    a {
+        text-decoration: none;
+        color: #4CAF50;
+    }
+}
+.add-button {
+    margin: 20px auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    width: 200px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.go_to_list {
+    margin: 20px auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.go_to_list:hover {
+    background-color: blue;
+}
+
+
+
+.details {
+    margin: 20px auto;
+    width: 60%;
+    font-family: Arial, sans-serif;
+}
+.details h2 {
+    text-align: center;
+}
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.details li {
+    margin: 10px 0;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 60%;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+.delete {
+    background-color: #f44336;
+    color: white;
+}
